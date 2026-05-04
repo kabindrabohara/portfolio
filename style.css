@@ -1,0 +1,158 @@
+* {
+    background-color: #333;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #222;
+
+}
+
+.left {
+    /* position: relative; */
+    grid-column: 1/2;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 800px;
+    background-color: #222;
+    width: 100%;
+    padding-right: 40px;
+
+}
+
+.right {
+    grid-column: 2/3;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #222;
+    padding-top: 50px;
+    padding-left: 50px;
+
+
+}
+
+.profile {
+    /* height: 700px; */
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid rgb(112, 110, 110);
+    position: fixed;
+    z-index: 1000;
+
+
+
+}
+
+.aboutme {
+    /* height: 1000px; */
+    width: 800px;
+    border-radius: 10px;
+    border: 1px solid rgb(112, 110, 110);
+
+
+}
+
+.profilepic {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.imageblock {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    color: rgb(137, 139, 139);
+    padding-left: 20px;
+}
+
+p {
+    padding-left: 20px;
+}
+
+button {
+    height: 40px;
+    width: 200px;
+    background-color: #222;
+    border-radius: 10px;
+    border: 1px solid rgb(112, 110, 110);
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-line {
+    height: 1px;
+    background-color: rgb(112, 110, 110);
+    width: 300px;
+}
+
+
+
+.rline {
+    height: 1px;
+    background-color: rgb(112, 110, 110);
+    width: 600px;
+}
+
+
+.sources {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+    height: 30px;
+    padding-top: 20px;
+    padding-right: 40px;
+
+}
+
+ul {
+    color: rgb(185, 187, 187);
+    cursor: pointer;
+}
+
+.skill-container {
+    margin: 30px;
+    height: 80px;
+    width: 80px;
+}
+
+a{
+    text-decoration: none;
+}
